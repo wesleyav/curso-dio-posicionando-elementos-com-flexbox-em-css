@@ -69,3 +69,12 @@ Eixo vertical
 * flex-center: centro do container.
 * space-between: cria um espaçamento igual entre os elementos.
 * space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+### Align-itens
+`align-itens` trata do alinhamento dos flex itens de acordo com o eixo do container. O alinhamento é diferente para quando os itens estão em colunas ou linhas. Permite o alinhamento central no eixo vertical.
+
+* center: alinha os itens ao centro.
+* strecth: padrão, e os flex itens cresçam igualmente.
+* flex-start: alinhamento dos itens no início.
+* flex-end: alinhamento dos itens no final.
+* baseline: alinhamento de acordo com a linha base da tipografia dos itens.
