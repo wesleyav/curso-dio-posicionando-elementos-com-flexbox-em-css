@@ -95,14 +95,17 @@ Tipos de alinhamento:
 
 ## Fundamentos do Flex Box - Parte 2
 
-### Estrutura básica do flex grow
+### Flex grow
 `flex-grow` é a propriedade que define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos.
 Não irá funcionar caso tenhamos adicionado justify-content ao nosso flex container.
 
-### Estrutura básica do flex basis
+### Flex basis
 `flex-basis` é a propriedade que estabelece o tamanho inicial do item antes da distribuição de espaço restante dentro dele, usando como base o conteúdo interno disposto.
 
 Valores possíveis:
 * auto: caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
 * px, %, em, etc...: são valores exatos previamente definidos
 * 0 (zero): terá relação com a definição do flex-grow
+
+### Flex shrink
+`flex-shrink` é a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item.
