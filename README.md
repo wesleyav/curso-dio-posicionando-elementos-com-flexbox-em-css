@@ -39,3 +39,14 @@ Sugestão de extensões para uso no Vscode:
 
 ### Display:flex
 `Display:flex` torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag tornam-se em flex items.
+
+### Flex-direction
+`flex-direction` é a propriedade que estabelece o eixo principal do container, definindo assim a direção que os flex items são colocados no flex container.
+
+Eixo horizontal
+* row (padrão): à direção do texto, esquerda para direita.
+* row-reverse: sentido oposto à direção do texto.
+
+Eixo vertical
+* column: ordenação de cima para baixo, em coluna única.
+* column-reverse: ordenação reversa, de baixo para cima.
