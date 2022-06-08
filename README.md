@@ -28,3 +28,14 @@ Propriedades relacionadas:
 * flex
 * order
 * align-self
+
+## Fundamentos do Flex Box - Parte 1
+
+### Estrutura básica do display:flex
+
+Sugestão de extensões para uso no Vscode:
+* HTML Snippets;
+* Live HTML Previewer;
+
+### Display:flex
+`Display:flex` torna a tag um elemento do tipo flex container, e assim automaticamente todos os seus filhos diretos desta tag tornam-se em flex items.
