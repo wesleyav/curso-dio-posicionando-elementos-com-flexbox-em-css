@@ -60,3 +60,12 @@ Eixo vertical
 
 ### Flex-flow
 `flex-flow` é um atalho para as propriedades `flex-direction` e `flex-wrap`. Porém seu uso não é tão comum, visto que quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
+
+### Justify content
+`justify-content` se encarrega de alinhar os itens dentro do container de acordo com a direção pretendida e trata da distribuição de espaçamento entre eles. Caso seus itens estejam ocupando 100% de todo o container, não se aplica.
+
+* flex-start: início do container.
+* flex-end: final do container.
+* flex-center: centro do container.
+* space-between: cria um espaçamento igual entre os elementos.
+* space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final.
