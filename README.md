@@ -112,3 +112,6 @@ Valores possíveis:
 
 ### Flex
 `flex` esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+
+### Order
+`order` é a propriedade responsável pela ordenação dos itens e está relacionada ao flex-itens.
