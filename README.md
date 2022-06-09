@@ -115,3 +115,14 @@ Valores possíveis:
 
 ### Order
 `order` é a propriedade responsável pela ordenação dos itens e está relacionada ao flex-itens.
+
+### Align-self
+`align-self` é a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+Valores possíveis:
+* auto: valor padrão, irá respeitar a definição de align-itens do container.
+* flex-start: ao início do container.
+* flex-end: ao final do container.
+* center: relativo ao centro de acordo com o eixo.
+* stretch: ocupa todo o espaço relativo
+* baseline: utiliza a linha base da tipografia.
